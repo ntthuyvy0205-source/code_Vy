@@ -59,9 +59,6 @@ quadrantChart
 
 # B3 -- Chuyển đổi yêu cầu khách hàng thành mục tiêu nghiệp vụ
 
-> Để tránh trùng mã với Business Requirement ở B5, mục tiêu nghiệp vụ
-> dùng mã **BR-Gxx** (Business Requirement -- Goal).
-
   -----------------------------------------------------------------------
   Mã                      Yêu cầu/nhu cầu khách   Mục tiêu nghiệp vụ
                           hàng                    
@@ -108,8 +105,6 @@ quadrantChart
 
 # B4 -- Phạm vi MVP
 
-Từ các mục tiêu nghiệp vụ ở B3, dự án được giới hạn còn **2 module
-chính**.
 
 ## M-01 -- Quản lý khách hàng
 
