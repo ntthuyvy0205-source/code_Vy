@@ -1,13 +1,5 @@
 # Sequence Diagram -- Duyệt phiếu chào hàng
 
-## 1. Mô tả
-
-Sequence Diagram mô tả quá trình **Chủ cửa hàng/Quản lý duyệt phiếu chào
-hàng**. Tiền điều kiện: Chủ cửa hàng/Quản lý đã đăng nhập và tồn tại
-phiếu chào hàng cần duyệt. Với giao dịch đổi xe, xe cũ đã được định giá.
-
-## 2. Sequence Diagram
-
 ``` mermaid
 sequenceDiagram
     autonumber
@@ -82,7 +74,7 @@ sequenceDiagram
     end
 ```
 
-## 3. Đối tượng tham gia
+## Đối tượng tham gia
 
   -----------------------------------------------------------------------
   Đối tượng                           Vai trò
@@ -108,8 +100,3 @@ sequenceDiagram
                                       chỉnh và thực hiện thương lượng
                                       lại.
   -----------------------------------------------------------------------
-
-## 4. Kết quả
-
-Phiếu được chuyển sang **Đã duyệt**, **Yêu cầu điều chỉnh** hoặc **Từ
-chối/Hủy**; hệ thống lưu người duyệt, thời điểm và ghi chú liên quan.
